@@ -1,0 +1,81 @@
+name: New Backlog Topic
+description: Suggest a new discussion topic, emerging requirement, operational challenge, or potential project for the OpenChain Business Operations Study Group.
+title: "[Topic] "
+labels:
+  - backlog
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a topic for the OpenChain Business Operations Study Group backlog.
+
+        Topics may include:
+        *Emerging operational requirements • Regulatory developments • Business process challenges • Best practices • Potential project ideas • Areas that may benefit from future OpenChain guidance*
+
+  - type: input
+    id: topic-title
+    attributes:
+      label: Topic Title
+      description: A short, descriptive title for the topic.
+      placeholder: Topic Title
+    validations:
+      required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Topic Overview
+      description: Briefly describe the topic and why it should be discussed.
+      placeholder: Describe the proposed topic.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement or Opportunity
+      description: What challenge, gap, requirement, or opportunity does this topic address?
+      placeholder: Please provide a brief problem statement or describe the opportunity.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-outcomes
+    attributes:
+      label: Potential Outcomes
+      description: What might result from discussing or exploring this topic?
+      placeholder: |
+        Examples:
+        - Community discussion
+        - Best practice guidance
+        - White paper
+        - Checklist
+        - Future project proposal
+
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Topic Maturity
+      description: Select the current maturity of the idea.
+      options:
+        - Early Idea
+        - Requires Community Discussion
+        - Emerging Requirement
+        - Candidate Project
+    validations:
+      required: true
+
+  - type: input
+    id: champion
+    attributes:
+      label: Topic Champion
+      description: A person willing to help drive discussion and coordination.
+      placeholder: "@username"
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Relevant links, documents, regulations, standards, presentations, or previous discussions.
+      placeholder: Please provide references that could help inform the topic.
