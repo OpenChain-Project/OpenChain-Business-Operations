@@ -14,27 +14,12 @@ The Business Operations Study Group serves as a community forum for:
 
 Inclusion in this backlog does not imply approval, prioritization, or commitment to a future project.
 
----
-
-## Topic Lifecycle
-
-```text
-Idea → Discussion → Project Proposal / Archive
-```
-
-### Status Definitions
-- Idea – Newly proposed topic
-- Discussion – Under active community discussion: Assessing relevance, scope, or feasibility
-- Workstream - Active workstream inside the Business Operations Study Group
-- Project Proposal – Candidate for a dedicated project or workstream
-- Archived – No longer actively pursued
-
-
-## Backlog
-
-| # | Topic | Description | Champion | Status | Related Issues / links |
-|----|-------|-------------|-----------|--------|----------------|
-| 001 | OpenChain CRA Checklist |  OpenChain CRA Checklist, policy framework and a self-certification checklist | [@devashridatta-dotcom](https://www.github.com/devashridatta-dotcom) | Workstream | [CRA-Compliance repo](https://github.com/OpenChain-Project/CRA-Compliance) |
+## Status Definitions
+- `Idea` – Newly proposed topic
+- `Discussion` – Under active community discussion: Assessing relevance, scope, or feasibility
+- `Workstream` - Active workstream inside the Business Operations Study Group
+- `Project Proposal` – Candidate for a dedicated project or workstream
+- `Archived` – No longer actively pursued
 
 ## Topic backlog
 
