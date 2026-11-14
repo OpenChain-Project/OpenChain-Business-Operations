@@ -63,8 +63,10 @@ jobs:
               return str(value).replace("|", "\\|").replace("\n", " ").strip()
 
           def get_topic_title(body, fallback):
+              # Capture the content after the Topic Title heading up to the next
+              # markdown heading (or the end of the issue body).
               match = re.search(
-                  r"(?im)^#{1,6}[ \t]+Topic Title[ \t]*\r?\n(.*?)(?=^#{1,6}[ \t]+|\\Z)",
+                  r"(?ims)^#{1,6}[ \t]+Topic Title[ \t]*\r?\n(.*?)(?=^#{1,6}[ \t]+|\Z)",
                   body or "",
               )
               if not match:
