@@ -32,7 +32,7 @@ jobs:
             --state all \
             --label topic \
             --limit 1000 \
-            --json number,title,url,labels,state,createdAt,updatedAt \
+            --json number,title,body,url,labels,state,createdAt,updatedAt \
             > topic-issues.json
 
       - name: Update topics.md
@@ -42,6 +42,7 @@ jobs:
           python3 <<'PY'
           import json
           import os
+          import re
           from pathlib import Path
 
           target = Path("topics.md")
@@ -60,6 +61,21 @@ jobs:
 
           def markdown_escape(value):
               return str(value).replace("|", "\\|").replace("\n", " ").strip()
+
+          def get_topic_title(body, fallback):
+              match = re.search(
+                  r"(?im)^#{1,6}[ \t]+Topic Title[ \t]*\r?\n(.*?)(?=^#{1,6}[ \t]+|\\Z)",
+                  body or "",
+              )
+              if not match:
+                  return fallback
+
+              title = " ".join(
+                  line.strip()
+                  for line in match.group(1).splitlines()
+                  if line.strip()
+              )
+              return title or fallback
 
           def get_status(labels):
               # Highest lifecycle stage wins if an issue has conflicting labels.
@@ -88,7 +104,7 @@ jobs:
               backlog.append({
                   "status": get_status(labels),
                   "number": issue["number"],
-                  "title": issue["title"],
+                  "title": get_topic_title(issue.get("body", ""), issue["title"]),
                   "url": issue["url"],
                   "state": issue["state"].title(),
               })
