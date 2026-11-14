@@ -49,5 +49,6 @@ Idea → Discussion → Project Proposal / Archive
 | Idea | [[Topic] Transport mechanisms as part of Business Operations](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/6) | [#6](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/6) | Open |
 | Idea | [Proposal for OpenChain Study Group related to Specifications & Education and Linux Foundation-related Projects](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/7) | [#7](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/7) | Open |
 | Idea | [[Topic] Business processes changes and CHAOSS metrics (Business Value and Risk of Open Source)](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/8) | [#8](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/8) | Open |
+| Workstream | [[Topic] OpenChain CRA Checklist](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/9) | [#9](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/9) | Open |
 
 <!-- TOPIC-BACKLOG:END -->
