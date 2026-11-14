@@ -43,12 +43,12 @@ Idea → Discussion → Project Proposal / Archive
 
 | Status | Topic | Issue | GitHub state |
 |---|---|---:|---|
-| Idea | [[Topic] Export Control as part of operational compliance](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/3) | [#3](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/3) | Open |
-| Idea | [[Topic] Post-quantum supply chain transparency as part of Business Operations](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/4) | [#4](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/4) | Open |
-| Idea | [[Topic] Efficient ticket handling along the supplychain as part of Business Operations](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/5) | [#5](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/5) | Open |
-| Idea | [[Topic] Transport mechanisms as part of Business Operations](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/6) | [#6](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/6) | Open |
-| Idea | [Proposal for OpenChain Study Group related to Specifications & Education and Linux Foundation-related Projects](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/7) | [#7](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/7) | Open |
-| Idea | [[Topic] Business processes changes and CHAOSS metrics (Business Value and Risk of Open Source)](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/8) | [#8](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/8) | Open |
-| Workstream | [[Topic] OpenChain CRA Checklist](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/9) | [#9](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/9) | Open |
+| Idea | [Export Control as part of operational compliance](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/3) | [#3](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/3) | Open |
+| Idea | [Post-quantum supply chain transparency as part of Business Operations](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/4) | [#4](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/4) | Open |
+| Idea | [Efficient ticket handling along the supplychain as part of Business Operations](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/5) | [#5](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/5) | Open |
+| Idea | [Transport mechanisms as part of Business Operations](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/6) | [#6](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/6) | Open |
+| Idea | [Proposal for OpenChain Study Group related to Specifications](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/7) | [#7](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/7) | Open |
+| Idea | [Business processes changes and CHAOSS metrics (Business Value and Risk of Open Source)](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/8) | [#8](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/8) | Open |
+| Workstream | [OpenChain CRA Checklist](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/9) | [#9](https://github.com/OpenChain-Project/OpenChain-Business-Operations/issues/9) | Open |
 
 <!-- TOPIC-BACKLOG:END -->
